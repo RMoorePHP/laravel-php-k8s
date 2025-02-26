@@ -19,8 +19,14 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RMoorePHP/php-k8s"
+        }
+    ],
     "require": {
-        "renoki-co/php-k8s": "^3.7"
+        "renoki-co/php-k8s": "dev-laravel-12"
     },
     "autoload": {
         "psr-4": {
