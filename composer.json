@@ -55,7 +55,10 @@
         "laravel": {
             "providers": [
                 "RenokiCo\\LaravelK8s\\LaravelK8sServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "K8s": "RenokiCo\\LaravelK8s\\LaravelK8sFacade"
+            }
         },
         "laravel-zero": {
             "providers": [
