@@ -26,7 +26,7 @@
         }
     ],
     "require": {
-        "renoki-co/php-k8s": "dev-laravel-12"
+        "renoki-co/php-k8s": "*"
     },
     "autoload": {
         "psr-4": {
