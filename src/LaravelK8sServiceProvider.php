@@ -27,7 +27,7 @@ class LaravelK8sServiceProvider extends ServiceProvider
 
             return new KubernetesCluster(
                 $config['connections'][$connection] ?? []
-            );
+            )->setFieldManager($config['fieldManager'] ?? "Laravel K8s Operator");
         });
     }
 
